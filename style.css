@@ -193,6 +193,11 @@ img {
   padding: 15px;
 }
 
-.social .btn {
+.social-icon {
+  width: 50px;
   margin: 5px;
+}
+
+.social-icon:hover {
+  opacity: 0.7;
 }
