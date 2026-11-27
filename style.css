@@ -1,5 +1,5 @@
 body {
-  font-family: "Times New Roman", serif;
+  font-family: Arial, sans-serif;
   background-color: #E8F1F4;
   color: #0B2A3C;
   margin: 0;
@@ -18,6 +18,7 @@ img {
   max-width: 100%;
 }
 
+/* header n menu */
 .site-header {
   background-color: #0B2A3C;
   padding: 15px;
@@ -62,6 +63,7 @@ img {
   color: #0B2A3C;
 }
 
+/* main design */
 .container {
   width: 80%;
   margin: 0 auto;
@@ -94,6 +96,7 @@ img {
   height: 40px;
 }
 
+/* button design */
 .btn {
   background-color: #D2493F;
   color: white;
@@ -112,6 +115,7 @@ img {
   color: #7FD1DB;
 }
 
+/* box desigm */
 .card {
   background-color: white;
   border: 2px solid #5E7A8A;
@@ -130,6 +134,7 @@ img {
   color: #7FD1DB;
 }
 
+/* abt page */
 .portrait {
   width: 200px;
   border: 3px solid #7FD1DB;
@@ -145,6 +150,7 @@ img {
   padding: 6px 0;
 }
 
+/* plan page */
 .timeline {
   border-left: 4px solid #5E7A8A;
   padding-left: 15px;
@@ -156,6 +162,7 @@ img {
   font-weight: bold;
 }
 
+/* goal */
 .goal-list li {
   background-color: white;
   padding: 10px;
@@ -166,6 +173,7 @@ img {
   background-color: #7FD1DB;
 }
 
+/* foot */
 .site-footer {
   background-color: #0B2A3C;
   color: white;
@@ -175,4 +183,16 @@ img {
 
 .site-footer a {
   color: #7FD1DB;
+}
+
+/* fb n ig links */
+.social {
+  text-align: center;
+  background-color: white;
+  border: 2px solid #5E7A8A;
+  padding: 15px;
+}
+
+.social .btn {
+  margin: 5px;
 }
